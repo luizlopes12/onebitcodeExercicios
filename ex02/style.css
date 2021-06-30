@@ -3,21 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-    margin: 5px 20px 20px 20px;
-}
 .post-container{
-    width: 80%;
+    width: 75%;
     margin: auto;
     background-color: #fffafa;
 }
-.date{
+.post-container h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 20px 20px 20px;
+}
+.post-container  .date{
     font-family: 'Roboto', sans-serif;
     color: #008080;
     padding: 20px;
 }
-.post-content{
+.post-container .post-content{
     font-family: 'Open Sans', sans-serif;
-    margin: 25px;
+    padding: 0px 25px 25px;
 }

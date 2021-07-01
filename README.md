@@ -1,2 +1,2 @@
-# testes_css
- exercicios e css e bulma do curso da onebitcode
+# exercícios onebitcode
+ exercicios e css, bulma e javascript do curso da onebitcode

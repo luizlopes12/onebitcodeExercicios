@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio com bulma</title>
 </head>
 <body>
+    <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="../../index.html">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
           </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
         </div>
       
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu is-active">
           <div class="navbar-start">
             <a class="navbar-item" href="../../index.html">
             <p class="subtitle">
@@ -36,10 +32,69 @@
               Contato
             </p>
             </a>
-    <div class="container">
-
-
+        </nav>
+    </header>
+    <div class="section">
+        <div class="columns mt-4">
+            <div class="column is-3">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-4">Luiz Lopes</p>
+                          <span class="tag is-dark is-medium">Javascript Full Stack Developer</span>
+                        </div>
+                      </div>
+                      <div class="content">
+                          <p class="is-size-6 has-text-dark">
+                              (13) 996440709
+                          </p>
+                          <p class="is-size-6 has-text-dark">
+                            Luizlopes12@outlook.com
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        <div class="column is-9">
+            <article class="message borda">
+                <div class="message-header has-background-white	has-text-grey-darker borda-b">
+                  <p>Contato</p>
+                </div>
+                <div class="message-body has-background-white">
+                      <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input" type="email" placeholder="Seu Email">
+                          <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                          </span>
+                          </span>
+                        </div>
+                      
+                      <div class="field">
+                        <label class="label">Mensagem</label>
+                        <div class="control">
+                          <textarea class="textarea" placeholder="Digite a mensagem"></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="field is-grouped">
+                        <div class="control">
+                          <button class="button is-success">Enviar</button>
+                        </div>
+                      </div>
+                </div>
+              </article>
+              
+        </div>
     </div>
+</div>
 
 
 

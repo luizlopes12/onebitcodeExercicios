@@ -1,29 +1,4 @@
-/*seletor de descendencia*/
-/*Todos os elementos p, independente se estão dentro de outras divs
- que estiverem dentro da div recebem o atributo*/
-div > p{
-    color: aqua;
+.delete-sair{
+    transition: all .2s linear;
+    display: none;
 }
-/*seletor adjacente*/
-/*Todo elemento h4 que vier depois de um h1 no html recebe essa propriedade*/
-h1 + h4{
-    color: red;
-}
-/*seletor de propriedade*/
-/*todo link a que tiver esse destino recebe a propriedade*/
-a[href='./destino']{
-    color: seagreen;
-}
-/*seletor nth ou child*/
-/*da pra determinar o estilo de elementos na div, se eles vão pular um item,
- sendo par ou ímpar*/
-/*em uma lista por exemplo, se vc quer pular o primeiro item e ir pulando de um em um, seria isso:*/
-/*ele adiciona o background em todos os itens ímpares da tag li*/
-li:nth-child(2n){
-    background-color: rgb(151, 78, 78);
-}
-/*para os itens impares*/
-li:nth-child(2n+1){
-    background-color: rgb(129, 129, 129);
-}
-
